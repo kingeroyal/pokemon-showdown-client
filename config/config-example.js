@@ -33,3 +33,9 @@ Config.roomsFirstOpenScript = function () {
 Config.customcolors = {
 	'zarel': 'aeo'
 };
+
+exports.config = {
+  server: 'localhost',
+  port: 8000,
+  websocketProtocol: 'ws:', // or 'wss:' if using HTTPS
+};
